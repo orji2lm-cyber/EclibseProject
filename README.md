@@ -18,7 +18,6 @@ public class CircleControl extends Application {
 
         Button btnEnlarge = new Button("Enlarge");
         Button btnShrink = new Button("Shrink");
-
         btnEnlarge.setOnAction(e -> circle.setRadius(circle.getRadius() + 2));
         btnShrink.setOnAction(e -> {
             if (circle.getRadius() > 2)
